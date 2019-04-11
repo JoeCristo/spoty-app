@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  
+  production: false,
+  authToken: 'BQAKm0qLH_G9lXA1J2bDEQjkdMXm6JW787RTuB5nSJ-XaVkKLutUn_vzIzYpqrB2dbu0RRbiVem0G6RW0Ac',
+  url: 'https://api.spotify.com/v1/',
+  urlFinalNewReleases: 'browse/new-releases?limit=20',
+  urlFinalGetArtist: '&type=artist&market=ES&offset=0&limit=15',
+  urlArtist: 'artists/',
+  urlEndTopTracks: '/top-tracks?country=us'
 };
 
 /*
@@ -14,3 +21,5 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
